@@ -20,7 +20,16 @@ Use np.linalg.norm() to find the 1-norm, 2-norm, and infinity norm of the matrix
 Step 4:
 
 Display the calculated norms in two decimal places.
+#program:
+```
+import numpy as np
+mat = np.array(eval(input()))
+ans =np.linalg.norm(mat,1)
+a="{:.2f}".format(ans)
+print(a)
 
+
+```
 # Register No:25013743
 # Developed By:Dhanush Rajan.T
 
